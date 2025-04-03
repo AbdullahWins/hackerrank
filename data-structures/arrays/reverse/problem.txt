@@ -1,43 +1,50 @@
-An array is a data structure that stores elements of the same type in a contiguous block of memory. In an array, , of size , each memory location has some unique index,  (where ), that can be referenced as  or .
+# Array Reversal Problem
+
+An array is a data structure that stores elements of the same type in a contiguous block of memory. In an array, of size `n`, each memory location has some unique index, `i` (where `0 <= i < n`), that can be referenced as `arr[i]` or `arr[i]`.
+
+## Task
 
 Your task is to reverse an array of integers.
 
-Note: If you've already solved our C++ domain's Arrays Introduction challenge, you may want to skip this.
+**Note:** If you've already solved our C++ domain's Arrays Introduction challenge, you may want to skip this.
 
-Example
+## Example
 
-Return .
+Given an array, return the array in reversed order.
 
-Function Description
+### Input Format
 
-Complete the function  with the following parameter(s):
+The first line contains an integer, `n`, the number of integers in the array.
 
-: the array to reverse
-Returns
+The second line contains `n` space-separated integers that make up the array.
 
-: the reversed array
-Input Format
+### Output Format
 
-The first line contains an integer, , the number of integers in .
-The second line contains  space-separated integers that make up .
+Return the reversed array.
 
-Constraints
+### Function Description
 
-Sample Input 1
+Complete the function `reverseArray` with the following parameter(s):
 
-CopyDownload
-Array: arr
-1
-4
-3
-2
+- `arr`: the array to reverse.
 
+#### Returns
 
+- The reversed array.
+
+### Sample Input 1
+
+```
 4
 1 4 3 2
-Sample Output 1
+```
 
+### Sample Output 1
+
+```
 2 3 4 1
-Explanation 1
+```
 
-The original array is . Reversed, it is .
+### Explanation
+
+The original array is `[1, 4, 3, 2]`. Reversed, it is `[2, 3, 4, 1]`.
